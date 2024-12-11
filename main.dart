@@ -1,4 +1,5 @@
 import 'package:career_connect/login_page.dart';
+import 'package:career_connect/registration_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
     
-      home: LoginPage(),
+      home: RegistrationPage(),
     );
   }
 }
