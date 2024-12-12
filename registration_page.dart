@@ -103,7 +103,7 @@ class RegistrationPage extends StatelessWidget {
                       Navigator.pushNamed(context, '/login');
                     },
                     child: Text("Already have an account? Login"),
-                  ),
+                ),
               ],
             ),
           ),
