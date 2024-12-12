@@ -1,21 +1,25 @@
-import 'package:career_connect/login_page.dart';
-import 'package:career_connect/registration_page.dart';
+import 'package:career_connect/landing_page.dart';
 import 'package:flutter/material.dart';
+import 'login_page.dart';
+import 'registration_page.dart';
+import 'home_page.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(CareerConnectApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
-
-  // This widget is the root of your application.
+class CareerConnectApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-    
-      home: RegistrationPage(),
+      initialRoute: '/landing', // Set the initial route
+      routes: {
+        '/landing':(context) => LandingPage(),
+        '/login': (context) => LoginPage(),
+        '/registration': (context) => RegistrationPage(),
+        '/jobListing': (context) => JobListingPage(),
+      },
     );
   }
 }
