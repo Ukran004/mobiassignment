@@ -36,18 +36,18 @@ class LandingPage extends StatelessWidget {
                     },
                     child: Text("Already have an account? Login"),
                   ),
-            SizedBox(height: 16),
-              TextButton(
-                onPressed: () {
-                  Navigator.pushNamed(context, '/registration');
-                },
-                child: Text("Don't have an account? Sign up"),
-              ),
-            SizedBox(height: 65),
-            Image.asset(
-              'assets/images/Screenshot 2024-12-12 234149.png',
-              height: 150,
-              fit: BoxFit.contain,
+                SizedBox(height: 16),
+                  TextButton(
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/registration');
+                    },
+                    child: Text("Don't have an account? Sign up"),
+                  ),
+                SizedBox(height: 65),
+                Image.asset(
+                  'assets/images/Screenshot 2024-12-12 234149.png',
+                  height: 150,
+                  fit: BoxFit.contain,
             ),
           ],
         ),
