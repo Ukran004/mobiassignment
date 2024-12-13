@@ -71,7 +71,7 @@ class RegistrationPage extends StatelessWidget {
                   decoration: InputDecoration(
                     labelText: 'Confirm Password',
                     border: OutlineInputBorder(),
-                  ),
+                    ),
                   obscureText: true,
                   validator: (value) {
                     if (value == null || value.isEmpty) {
