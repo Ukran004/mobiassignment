@@ -31,7 +31,7 @@ class LoginPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('CareerConnect Login'),
-      ),
+    ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
         child: Form(
