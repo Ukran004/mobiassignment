@@ -1,0 +1,2 @@
+C:/Users/RYZEN7/Desktop/CHATGPTCC/careerconnectgpt/android/app/.cxx/Debug/6d1f3gu2/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/RYZEN7/Desktop/CHATGPTCC/careerconnectgpt/android/app/.cxx/Debug/6d1f3gu2/armeabi-v7a/CMakeFiles/rebuild_cache.dir
